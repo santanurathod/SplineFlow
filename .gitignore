@@ -1,0 +1,69 @@
+# Results directory (excluded as requested)
+results/
+
+# Data directories
+data/
+data_old/
+
+# Temporary output
+tmp_out_folder/
+scratch/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment files
+venv/
+env/
+ENV/
+*.egg-info/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+checkpoint/
+checkpoints/
+
+# Logs and experiment outputs
+*.log
+*.out
+logs/
+
+# R files
+.Rhistory
+.RData
+.Rproj.user
+
+# Slurm job outputs
+slurm-*.out
+
+# Video files (if generated)
+*.mp4
+*.avi
+*.mov
+
+# Large plot/figure directories (keeping small ones)
+# Uncomment if you want to exclude plot directories:
+# *_plots/
+# figures/

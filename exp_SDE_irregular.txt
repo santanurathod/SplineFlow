@@ -1,0 +1,72 @@
+--data_config lorenz_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_v_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_vv_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lorenz_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_v_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_vv_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config damped_harmonic_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_v_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_vv_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config lotka_volterra_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d1 --degree 1 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d2 --degree 2 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d3 --degree 3 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d4 --degree 4 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind bspline --exp_name SDE_constant_sigma_irregular_d5 --degree 5 --dynamics_kind sde_constant_sigma --epochs 100000

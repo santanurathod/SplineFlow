@@ -1,0 +1,85 @@
+# hopperphysics
+python main.py --data_config hopperphysics --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config hopperphysics_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config hopperphysics_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config hopperphysics_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+
+python main.py --data_config hopperphysics --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config hopperphysics_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config hopperphysics_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config hopperphysics_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+
+python main.py --data_config hopperphysics --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config hopperphysics_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config hopperphysics_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config hopperphysics_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+
+python main.py --data_config hopperphysics --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config hopperphysics_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config hopperphysics_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config hopperphysics_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+
+# lorenz
+python main.py --data_config lorenz --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config lorenz_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config lorenz_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config lorenz_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+
+python main.py --data_config lorenz --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config lorenz_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config lorenz_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config lorenz_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+
+python main.py --data_config lorenz --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config lorenz_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config lorenz_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config lorenz_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+
+python main.py --data_config lorenz --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config lorenz_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config lorenz_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config lorenz_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+
+
+# damped_harmonic
+python main.py --data_config damped_harmonic --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config damped_harmonic_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config damped_harmonic_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config damped_harmonic_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+
+python main.py --data_config damped_harmonic --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config damped_harmonic_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config damped_harmonic_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config damped_harmonic_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+
+python main.py --data_config damped_harmonic --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config damped_harmonic_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config damped_harmonic_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config damped_harmonic_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+
+python main.py --data_config damped_harmonic --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config damped_harmonic_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config damped_harmonic_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config damped_harmonic_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+
+
+# lotka_volterra
+python main.py --data_config lotka_volterra --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config lotka_volterra_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config lotka_volterra_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+python main.py --data_config lotka_volterra_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d1 --degree 1
+
+python main.py --data_config lotka_volterra --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config lotka_volterra_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config lotka_volterra_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+python main.py --data_config lotka_volterra_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d2 --degree 2
+
+python main.py --data_config lotka_volterra --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config lotka_volterra_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config lotka_volterra_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+python main.py --data_config lotka_volterra_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d4 --degree 4
+
+python main.py --data_config lotka_volterra --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config lotka_volterra_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config lotka_volterra_v_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5
+python main.py --data_config lotka_volterra_vv_sparse --interpolant_kind bspline --exp_name degree_ablation_d5 --degree 5

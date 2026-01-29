@@ -1,0 +1,13 @@
+{
+    "reqs": {
+        "lotka_volterra": {
+            "num_param_configs": 1,
+            "trajectories_per_config": 1000
+        }
+    },
+    "missing_prob": 0.75,
+    "seed": 42,
+    "fill_method": "nofill",
+    "synthetic": true,
+    "times": [0,10, 0.05]
+    }

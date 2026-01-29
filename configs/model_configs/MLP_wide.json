@@ -1,0 +1,6 @@
+{
+
+    "hidden_dim": 2048,
+    "num_layers": 4,
+    "model_type": "MLP"
+}

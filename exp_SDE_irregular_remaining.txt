@@ -1,0 +1,3 @@
+--data_config exp_decay_sde_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_v_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000
+--data_config exp_decay_sde_vv_sparse --interpolant_kind linear --exp_name SDE_constant_sigma_irregular --dynamics_kind sde_constant_sigma --epochs 100000

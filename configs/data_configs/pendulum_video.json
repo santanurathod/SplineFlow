@@ -1,0 +1,15 @@
+{
+    "reqs": {
+        "pendulum_video": {
+            "num_param_configs": 1,
+            "trajectories_per_config": 1000,
+            "height": 84, 
+            "width": 84
+        }
+    },
+    "missing_prob": 0,
+    "seed": 42,
+    "fill_method": "nofill",
+    "synthetic": true,
+    "times": [0,200, 1]
+    }

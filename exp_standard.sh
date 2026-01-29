@@ -1,0 +1,53 @@
+python main.py --data_config exp_decay --interpolant_kind bspline --exp_name standard
+python main.py --data_config exp_decay --interpolant_kind linear --exp_name standard
+python main.py --data_config exp_decay_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config exp_decay_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config exp_decay_v_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config exp_decay_v_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config exp_decay_vv_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config exp_decay_vv_sparse --interpolant_kind linear --exp_name standard
+
+python main.py --data_config damped_harmonic --interpolant_kind bspline --exp_name standard
+python main.py --data_config damped_harmonic --interpolant_kind linear --exp_name standard
+python main.py --data_config damped_harmonic_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config damped_harmonic_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config damped_harmonic_v_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config damped_harmonic_v_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config damped_harmonic_vv_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config damped_harmonic_vv_sparse --interpolant_kind linear --exp_name standard
+
+python main.py --data_config harmonic_oscillator --interpolant_kind bspline --exp_name standard
+python main.py --data_config harmonic_oscillator --interpolant_kind linear --exp_name standard
+python main.py --data_config harmonic_oscillator_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config harmonic_oscillator_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config harmonic_oscillator_v_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config harmonic_oscillator_v_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config harmonic_oscillator_vv_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config harmonic_oscillator_vv_sparse --interpolant_kind linear --exp_name standard
+
+python main.py --data_config lotka_volterra --interpolant_kind bspline --exp_name standard
+python main.py --data_config lotka_volterra --interpolant_kind linear --exp_name standard
+python main.py --data_config lotka_volterra_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config lotka_volterra_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config lotka_volterra_v_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config lotka_volterra_v_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config lotka_volterra_vv_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config lotka_volterra_vv_sparse --interpolant_kind linear --exp_name standard
+
+python main.py --data_config lorenz --interpolant_kind bspline --exp_name standard
+python main.py --data_config lorenz --interpolant_kind linear --exp_name standard
+python main.py --data_config lorenz_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config lorenz_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config lorenz_v_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config lorenz_v_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config lorenz_vv_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config lorenz_vv_sparse --interpolant_kind linear --exp_name standard
+
+python main.py --data_config hopperphysics --interpolant_kind bspline --exp_name standard
+python main.py --data_config hopperphysics --interpolant_kind linear --exp_name standard
+python main.py --data_config hopperphysics_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config hopperphysics_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config hopperphysics_v_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config hopperphysics_v_sparse --interpolant_kind linear --exp_name standard
+python main.py --data_config hopperphysics_vv_sparse --interpolant_kind bspline --exp_name standard
+python main.py --data_config hopperphysics_vv_sparse --interpolant_kind linear --exp_name standard

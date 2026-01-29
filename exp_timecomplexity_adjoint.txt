@@ -1,0 +1,2 @@
+--baseline latent_ode --data_config exp_decay --epochs 100 --exp_name timecomplexity
+--baseline latent_ode --data_config hopperphysics --epochs 100 --exp_name timecomplexity
